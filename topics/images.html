@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Images</title>
+  </head>
+  <body>
+    <!-- Syntax Image -->
+    <!-- <img src="url" alt="alternatetext" /> -->
+    <!-- Link -->
+    <a href="https://www.alibaba.ir/">
+      <img src="https://cdn.alibaba.ir/h2/desktop/assets/images/hero/hero-e1fa22fb.webp" alt="HTML tutorial" style="width: 1500px; height: 300px"/>
+    </a><br /><br />
+    <!-- src & alt & style -->
+    <img src="../assets/images/gitcommand.jpeg" alt="Git Command"style="width: 300px; height: 400px"/>
+    <!-- width & height -->
+    <img src="../assets/images/gitcommand.jpeg" alt="Git Command" width="300" height="400"/>
+    <!-- Image Maps -->
+    <h2>Image Maps</h2>
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap"/>
+
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.pexels.com/search/computer/"/>
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.freepik.com/free-photos-vectors/phone"/>
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.freepik.com/free-photos-vectors/coffee"/>
+    </map>
+    <!-- Animated Images -->
+    <img src="https://media1.tenor.com/m/IieZUsqoYCwAAAAC/developer.gif" alt="Computer Man" style="width: 200px; height: 200px"/>
+    <!-- float -->
+    <p>
+      <img src="https://media1.tenor.com/m/GiUbb4qg_vwAAAAC/csharp-cat-programmer.gif" alt="Programming" style="float: right; width: 200px; height: 200px"/>
+      The image will float to the right of the text.
+    </p>
+    <!-- Picture -->
+    <h2>The picture Element</h2>
+    <picture>
+      <source srcset="../assets/images/http_https.jpg" />
+      <source srcset="../assets/images/html_vs_html5.webp" />
+      <img src="https://media1.tenor.com/m/GiUbb4qg_vwAAAAC/csharp-cat-programmer.gif" alt="Programming" style="width: auto"/>
+    </picture>
+    <!-- Another Server/Website -->
+    <img src="https://cdn.alibaba.ir/h2/desktop/assets/images/hero/hero-e1fa22fb.webp" alt="alibaba.ir" style="width: 1500px; height: 300px"/>
+  </body>
+</html>
