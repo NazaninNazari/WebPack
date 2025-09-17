@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Layout</title>
+    <style>
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 0px;
+      }
+      .header {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+      }
+      ul {
+        display: flex;
+        gap: 20px;
+      }
+      .list {
+        color: blueviolet;
+        font-size: large;
+        text-underline-offset: 4px;
+        list-style-type: none;
+      }
+      a {
+        color: rgb(237, 63, 159);
+        text-decoration-line: none;
+      }
+      .footer {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+      }
+      .section {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h2>Header</h2>
+      <nav>
+        <ul>
+          <li class="list"><a href="#London">London</a></li>
+          <li class="list"><a href="#Paris">Paris</a></li>
+          <li class="list"><a href="#Tokyo">Tokyo</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section">
+      <article>
+        <h2 id="London">London</h2>
+        <p>London is the capital of England.</p>
+        <h2 id="Paris">Paris</h2>
+        <p>Paris is the capital of France.</p>
+        <h2 id="Tokyo">Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+      </article>
+    </section>
+    <footer class="footer">
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>
