@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Versus XHTML</title>
+  </head>
+  <body>
+    <!-- XHTML - <!DOCTYPE ....> Is Mandatory -->
+    <!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <title>Title of document</title>
+      </head>
+      <body>
+        some content here...
+      </body>
+    </html> -->
+    <!-- XHTML Elements Must be Properly Nested -->
+    <!-- Wrong -->
+    <b><i>Some text</b></i>
+    <!-- XHTML Elements Must Always be Closed -->
+    <!-- wrong -->
+    <p>This is a paragraph
+    <p>This is another paragraph
+    <!-- XHTML Empty Elements Must Always be Closed -->
+    <!-- Wrong -->
+    A break: <br>
+    A horizontal rule: <hr>
+    An image: <img src="../../assets/images/colors.jpg" alt="colors">
+    <!-- XHTML Elements Must be in Lowercase -->
+    <!-- Wrong -->
+    <BODY>
+     <P>This is a paragraph</P>
+    </BODY>
+    <!-- XHTML Attribute Minimization is Forbidden -->
+    <!-- Wrong -->
+    <input type="checkbox" name="vehicle" value="car" checked />
+    <input type="text" name="lastname" disabled />
+  </body>
+</html>
