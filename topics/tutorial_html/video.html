@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Video</title>
+  </head>
+  <body>
+    <!-- video -->
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4" />
+      <source src="movie.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video><br/>
+    <video width="320" height="240" autoplay>
+      <source src="movie.mp4" type="video/mp4" />
+      <source src="movie.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video><br/>
+    <video width="320" height="240" autoplay muted>
+      <source src="movie.mp4" type="video/mp4" />
+      <source src="movie.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video><br/>
+    <!-- track -->
+    <video width="320" height="240" controls>
+      <source src="forrest_gump.mp4" type="video/mp4" />
+      <source src="forrest_gump.ogg" type="video/ogg" />
+      <track
+        src="fgsubtitles_en.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English"
+      />
+      <track
+        src="fgsubtitles_no.vtt"
+        kind="subtitles"
+        srclang="no"
+        label="Norwegian"
+      />
+    </video>
+  </body>
+</html>

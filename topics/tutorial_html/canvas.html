@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Canvas Graphics</title>
+    <style>
+        hr {
+        border: 2px solid rgb(241, 91, 231);
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="200" height="100" style="border: 1px solid #0b2c6f">
+      Your browser does not support the HTML canvas tag.
+    </canvas><br/><hr/>
+    <!-- Add a JavaScript-->
+    <canvas id="myCanVas" width="200" height="100" style="border: 1px solid #d3d3d3">
+      Your browser does not support the HTML canvas tag.
+    </canvas>
+    <script>
+      var c = document.getElementById("myCanVas");
+      var ctx = c.getContext("2d");
+      ctx.moveTo(0, 0);
+      ctx.lineTo(200, 100);
+      ctx.stroke();
+    </script><br/><hr/>
+    <!-- Draw a Circle -->
+    <canvas id="myCanvaS" width="200" height="100" style="border: 1px solid #d3d3d3">
+      Your browser does not support the HTML canvas tag.
+    </canvas>
+    <script>
+      var c = document.getElementById("myCanvaS");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+      ctx.stroke();
+    </script><br/><hr/>
+    <!-- Draw a Text -->
+    <canvas id="MyCanvas" width="200" height="100" style="border: 1px solid #e92a2a">
+      Your browser does not support the HTML canvas tag.
+    </canvas>
+    <script>
+      var c = document.getElementById("MyCanvas");
+      var ctx = c.getContext("2d");
+      ctx.font = "30px Arial";
+      ctx.fillText("Hello World", 10, 50);
+    </script><br/><hr/>
+    <!-- Stroke Text -->
+    <canvas id="MYCanvas" width="200" height="100" style="border: 1px solid #3ae74b">
+      Your browser does not support the HTML canvas tag.
+    </canvas>
+    <script>
+      var c = document.getElementById("MYCanvas");
+      var ctx = c.getContext("2d");
+      ctx.font = "30px Arial";
+      ctx.strokeText("Hello World", 10, 50);
+    </script><br/><hr/>
+    <!-- Draw Linear Gradient -->
+    <canvas id="myCanvAs" width="200" height="100" style="border: 1px solid #f619f3">
+      Your browser does not support the HTML canvas tag.
+    </canvas>
+    <script>
+      var c = document.getElementById("myCanvAs");
+      var ctx = c.getContext("2d");
+      // Create gradient
+      var grd = ctx.createLinearGradient(0, 0, 200, 0);
+      grd.addColorStop(0, "red");
+      grd.addColorStop(1, "white");
+      // Fill with gradient
+      ctx.fillStyle = grd;
+      ctx.fillRect(10, 10, 150, 80);
+    </script><br/><hr/>
+    <!-- Draw Circular Gradient -->
+    <canvas id="myCAnvas" width="200" height="100" style="border: 1px solid #96aa11">
+      Your browser does not support the HTML canvas tag.
+    </canvas>
+    <script>
+      var c = document.getElementById("myCAnvas");
+      var ctx = c.getContext("2d");
+      // Create gradient
+      var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+      grd.addColorStop(0, "red");
+      grd.addColorStop(1, "white");
+      // Fill with gradient
+      ctx.fillStyle = grd;
+      ctx.fillRect(10, 10, 150, 80);
+    </script>
+    <!-- Draw Image -->
+    <p>Image to use:</p>
+    <img id="scream" src="../../assets/images/colors.jpg" alt="http_https" width="200" height="200"/>
+    <p>Canvas to fill:</p>
+    <canvas id="mYCanvas" width="740" height="745" style="border: 1px solid #f51dc6">
+      Your browser does not support the HTML canvas tag.
+    </canvas>
+    <p><button onclick="myCanvas()">Try it</button></p>
+    <script>
+      function myCanvas() {
+        var c = document.getElementById("mYCanvas");
+        var ctx = c.getContext("2d");
+        var img = document.getElementById("scream");
+        ctx.drawImage(img, 10, 10);
+      }
+    </script>
+  </body>
+</html>

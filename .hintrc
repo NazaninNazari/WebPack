@@ -16,6 +16,15 @@
       {
         "label": "off"
       }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "input[type=month]",
+          "input[type=week]"
+        ]
+      }
     ]
   }
 }
