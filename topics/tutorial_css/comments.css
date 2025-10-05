@@ -1,0 +1,16 @@
+/* This is a single-line comment */
+span {
+  color: rgb(241, 124, 194);
+}
+span {
+  color: rgb(241, 124, 194); /* Set text color to pink */
+}
+span {
+  color: /*pink*/ rgb(232, 122, 240);
+}
+/* This is
+a multi-line
+comment */
+span {
+  color: rgb(241, 124, 194);
+}

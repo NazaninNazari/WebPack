@@ -1,0 +1,29 @@
+/* Missing Semicolons */
+.header {
+  color: rgb(236, 127, 223);
+  background-color: rgb(179, 106, 247)
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Invalid Property Names */
+.footer {
+  color: rgb(236, 127, 223);
+  background-color: rgb(179, 106, 247);
+  font-faily: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Invalid Values */
+.main {
+  width: -100px;
+  color: rgb(87, 197, 207);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Extra Colons or Braces */
+.footer {
+  color: rgb(236, 127, 223);
+  background-color:: rgb(179, 106, 247);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Unclosed Braces */
+.heading {
+  color: rgb(87, 197, 207);
+  background-color: rgb(179, 106, 247);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

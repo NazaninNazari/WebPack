@@ -1,0 +1,37 @@
+/* Universal Selector */
+* {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(39, 154, 139);
+}
+/* Element Selector */
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(249, 127, 216);
+}
+/* ID Selector */
+#content {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(243, 146, 246);
+}
+/* Class Selector */
+.header {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(249, 127, 216);
+}
+/* Tag button with attribute class="login" */
+button.login {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(243, 146, 246);
+}
+/* Grouping Selector */
+p,
+span {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(39, 154, 139);
+}
