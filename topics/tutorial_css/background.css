@@ -1,0 +1,73 @@
+/* background-color */
+* {
+  background-color: lightblue;
+}
+/* Opacity / Transparency */
+.header {
+  background-color: rgb(128, 0, 92);
+  opacity: 0.1;
+  opacity: 0.3;
+  opacity: 0.6;
+}
+/* Background Image */
+.footer {
+  background-image: url("../../assets/images/colors.jpg");
+}
+/* Background Image Repeat */
+.main {
+  background-image: url("../../assets/images/colors.jpg");
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-repeat: repeat-y;
+  background-repeat: round;
+  background-repeat: space;
+  background-repeat: repeat;
+}
+/* background-position */
+.list {
+  background-image: url("../../assets/images/colors.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center top;
+  background-position: bottom right;
+  background-position: 20% 20%;
+}
+/* Background Attachment */
+.section {
+  background-image: url("../../assets/images/colors.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-attachment: scroll;
+}
+/* Background Shorthand */
+.nav {
+  background: #ffffff url("../../assets/images/colors.jpg") no-repeat right top;
+}
+/* background-size */
+#box {
+  background: url("../../assets/images/colors.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 300px 100px;
+  background-size: cover;
+  background-size: contain;
+  background-size: contain, cover;
+}
+/* background-origin */
+.sidebar {
+  background: url("../../assets/images/colors.jpg");
+  border: 10px dashed rgb(75, 178, 238);
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-origin: content-box, padding-box;
+}
+/* background-clip */
+.boxing {
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+}

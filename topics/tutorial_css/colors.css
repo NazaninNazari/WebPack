@@ -1,0 +1,93 @@
+.color_background {
+  background-color: Tomato;
+  background-color: Orange;
+  background-color: DodgerBlue;
+  background-color: MediumSeaGreen;
+  background-color: Gray;
+  background-color: SlateBlue;
+  background-color: Violet;
+  background-color: LightGray;
+}
+.color_text {
+  color: Tomato;
+  color: Orange;
+  color: DodgerBlue;
+  color: MediumSeaGreen;
+  color: Gray;
+  color: SlateBlue;
+  color: Violet;
+  color: LightGray;
+}
+.color_border {
+  border: 2px solid Tomato;
+  border: 2px solid Orange;
+  border: 2px solid DodgerBlue;
+  border: 2px solid MediumSeaGreen;
+  border: 2px solid Gray;
+  border: 2px solid SlateBlue;
+  border: 2px solid Violet;
+  border: 2px solid LightGray;
+}
+.color_rgb {
+  background-color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 255);
+  background-color: rgb(60, 179, 113);
+  background-color: rgb(238, 130, 238);
+  background-color: rgb(255, 165, 0);
+  background-color: rgb(106, 90, 205);
+}
+.rgb_gray {
+  background-color: rgb(60, 60, 60);
+  background-color: rgb(90, 90, 90);
+  background-color: rgb(120, 120, 120);
+  background-color: rgb(210, 210, 210);
+  background-color: rgb(240, 240, 240);
+}
+.color_rgba {
+  background-color: rgba(255, 99, 71, 0);
+  background-color: rgba(255, 99, 71, 0.2);
+  background-color: rgba(255, 99, 71, 0.4);
+  background-color: rgba(255, 99, 71, 0.6);
+  background-color: rgba(255, 99, 71, 0.8);
+  background-color: rgba(255, 99, 71, 1);
+}
+.color_hex {
+  background-color: #ff0000;
+  background-color: #0000ff;
+  background-color: #3cb371;
+  background-color: #ee82ee;
+  background-color: #ffa500;
+  background-color: #6a5acd;
+}
+.hex_gray {
+  background-color: #3c3c3c;
+  background-color: #616161;
+  background-color: #787878;
+  background-color: #b4b4b4;
+  background-color: #f0f0f0;
+  background-color: #f9f9f9;
+}
+.color_hsl {
+  color: hsl(0, 100%, 50%);
+  color: hsl(240, 100%, 50%);
+  color: hsl(147, 50%, 47%);
+  color: hsl(300, 76%, 72%);
+  color: hsl(39, 100%, 50%);
+  color: hsl(248, 53%, 58%);
+}
+.color_saturation {
+  color: hsl(0, 100%, 50%);
+  color: hsl(0, 80%, 50%);
+  color: hsl(0, 60%, 50%);
+  color: hsl(0, 40%, 50%);
+  color: hsl(0, 20%, 50%);
+  color: hsl(0, 0%, 50%);
+}
+.color_lightness {
+  background-color: hsl(0, 100%, 0%);
+  background-color: hsl(0, 100%, 25%);
+  background-color: hsl(0, 100%, 50%);
+  background-color: hsl(0, 100%, 75%);
+  background-color: hsl(0, 100%, 90%);
+  background-color: hsl(0, 100%, 100%);
+}
