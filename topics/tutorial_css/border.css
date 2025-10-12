@@ -1,0 +1,58 @@
+.border {
+  border-style: dotted;
+  border-style: dashed;
+  border-style: solid;
+  border-style: double;
+  border-style: groove;
+  border-style: ridge;
+  border-style: inset;
+  border-style: outset;
+  border-style: none;
+  border-style: hidden;
+  border-style: dotted dashed solid double;
+}
+.border_width {
+  border-width: 5px;
+  border-width: medium;
+  border-width: thick;
+  border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+}
+.border_color {
+  border-color: Tomato;
+  border-color: Orange;
+  border-color: DodgerBlue;
+  border-color: MediumSeaGreen;
+  border-color: Gray;
+  border-color: SlateBlue;
+  border-color: Violet;
+  border-color: LightGray;
+  border-color: Violet MediumSeaGreen SlateBlue Gray; /* violet top, mediumseagreen right, slateblue bottom and gray left */
+  border-color: #73eaf4;
+  border-color: rgb(236, 105, 197);
+  border-color: hsl(75, 76%, 69%);
+}
+.border_sides {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  border-style: dotted solid;
+  border-style: dotted solid double;
+  border-style: dotted solid double dashed;
+}
+.border_shorthand {
+  border: 5px solid rgb(0, 255, 208);
+  border-left: 6px solid rgb(0, 221, 255);
+}
+.border_rounded {
+  border-radius: 5px;
+  border-radius: 50px 20px;
+}
+.border_inline {
+  border-inline: 5px solid rgb(179, 98, 98);
+  border-inline: solid rgb(233, 140, 208);
+  border-inline: rgb(128, 128, 218) 10px dotted;
+  border-inline: groove 4px;
+  border-inline: double;
+}

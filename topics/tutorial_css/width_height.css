@@ -1,0 +1,13 @@
+.width_height {
+  height: 200px;
+  width: 50%;
+}
+.max_width_height {
+  max-width: 500px;
+  width: 100%;
+  max-height: 50px;
+}
+.min_width_height {
+  min-height: 200px;
+  min-width: 500px;
+}
