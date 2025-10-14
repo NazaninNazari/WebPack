@@ -1,0 +1,19 @@
+.cursor_style {
+  cursor: auto;
+  cursor: crosshair;
+  cursor: default;
+  cursor: e-resize;
+  cursor: help;
+  cursor: move;
+  cursor: n-resize;
+  cursor: ne-resize;
+  cursor: nw-resize;
+  cursor: pointer;
+  cursor: progress;
+  cursor: s-resize;
+  cursor: se-resize;
+  cursor: sw-resize;
+  cursor: text;
+  cursor: w-resize;
+  cursor: wait;
+}

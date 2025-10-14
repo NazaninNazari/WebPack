@@ -1,0 +1,31 @@
+.outline_style {
+  outline-style: dotted;
+  outline-style: dashed;
+  outline-style: solid;
+  outline-style: double;
+  outline-style: groove;
+  outline-style: ridge;
+  outline-style: inset;
+  outline-style: outset;
+}
+.outline_width {
+  outline-width: thin;
+  outline-width: medium;
+  outline-width: thick;
+  outline-width: 8px;
+}
+.outline_color {
+  outline-color: rgb(248, 126, 207);
+  outline-color: green;
+  outline-color: #000;
+}
+.outline_shorthand {
+  outline: dashed;
+  outline: dotted purple;
+  outline: 7px solid yellow;
+  outline: thick ridge pink;
+}
+.outline_offset {
+  outline-offset: 15px;
+  outline-offset: -5px;
+}

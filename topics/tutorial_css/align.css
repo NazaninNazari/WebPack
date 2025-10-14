@@ -1,0 +1,57 @@
+.text_align {
+  text-align: center;
+  text-align: end;
+  text-align: left;
+  text-align: right;
+  text-align: start;
+}
+.align_item {
+  align-items: center;
+  align-items: baseline;
+  align-items: end;
+  align-items: first baseline;
+  align-items: flex-end;
+  align-items: flex-start;
+  align-items: normal;
+  align-items: safe;
+  align-items: self-end;
+  align-items: unset;
+  align-items: initial;
+  align-items: inherit;
+  align-items: stretch;
+  align-items: start;
+}
+.justify_content {
+  justify-content: center;
+  justify-content: baseline;
+  justify-content: end;
+  justify-content: first baseline;
+  justify-content: flex-end;
+  justify-content: flex-start;
+  justify-content: left;
+  justify-content: right;
+  justify-content: space-around;
+  justify-content: start;
+  justify-content: unset;
+  justify-content: initial;
+  justify-content: inherit;
+}
+.place_item {
+  place-items: center;
+  place-items: inherit;
+  place-items: initial;
+  place-items: unset;
+}
+.float {
+  float: right;
+  float: inline-end;
+  float: inline-start;
+  float: none;
+  float: left;
+  float: inherit;
+  float: initial;
+  float: unset;
+}
+.transform {
+  transform: translate(-50%, -50%);
+}

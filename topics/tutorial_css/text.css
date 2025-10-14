@@ -1,0 +1,74 @@
+.text_color {
+  color: purple;
+  color: white;
+  color: rgb(219, 232, 100);
+  color: #000;
+}
+.text_alignment {
+  text-align: center;
+  text-align: left;
+  text-align: right;
+  text-align: justify;
+  text-align: end;
+  text-align: justify;
+  text-align: start;
+  text-align: inherit;
+  text-align: initial;
+  text-align: unset;
+}
+.align_last {
+  text-align-last: right;
+  text-align-last: justify;
+}
+.vertical_align {
+  vertical-align: baseline;
+  vertical-align: text-bottom;
+  vertical-align: text-top;
+  vertical-align: sub;
+  vertical-align: super;
+}
+.text_direction {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.text_decoration {
+  text-decoration: none;
+  text-decoration-line: overline;
+  text-decoration-line: line-through;
+  text-decoration-line: underline;
+  text-decoration-line: overline underline;
+  text-decoration-color: palevioletred;
+  text-decoration-style: solid;
+  text-decoration-style: double;
+  text-decoration-style: dotted;
+  text-decoration-style: dashed;
+  text-decoration-style: wavy;
+  text-decoration-thickness: auto;
+  text-decoration-thickness: 5px;
+  text-decoration-thickness: 25%;
+  text-decoration: underline red double 5px;
+}
+.text_transform {
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+.text_spacing {
+  text-indent: 50px;
+  letter-spacing: 5px;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  line-height: 1.8;
+  word-spacing: 10px;
+  word-spacing: -2px;
+  white-space: nowrap;
+}
+.text_shadow {
+  text-shadow: 2px 2px;
+  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px 5px red;
+  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 0 0 3px #ff0000;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
+}
