@@ -1,0 +1,15 @@
+.float {
+  float: right;
+  float: left;
+  float: none;
+}
+.clear {
+  clear: both;
+  clear: left;
+  clear: none;
+  clear: right;
+}
+.box_sizing {
+  box-sizing: border-box;
+  box-sizing: content-box;
+}

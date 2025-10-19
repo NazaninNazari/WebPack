@@ -1,0 +1,8 @@
+.important {
+  background-color: rgb(145, 198, 241) !important;
+  animation: none !important;
+  transition: none !important;
+  color: white !important;
+  padding: 5px !important;
+  border: 1px solid black !important;
+}

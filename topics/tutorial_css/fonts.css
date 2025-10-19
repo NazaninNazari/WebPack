@@ -1,0 +1,63 @@
+/* Font Family */
+.font_family {
+  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier New", Courier, monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.web_safe {
+  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
+  font-family: Tahoma, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
+  font-family: Georgia, serif;
+  font-family: "Brush Script MT", cursive;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+.font_style {
+  font-style: normal;
+  font-style: italic;
+  font-style: oblique;
+  font-style: inherit;
+  font-style: initial;
+  font-style: unset;
+}
+.font_weight {
+  font-weight: normal;
+  font-weight: bolder;
+  font-weight: bold;
+  font-weight: lighter;
+  font-weight: 100;
+}
+.font_variant {
+  font-variant: normal;
+  font-variant: small-caps;
+  font-variant: initial;
+  font-variant: unset;
+  font-variant: inherit;
+}
+.font_size_em {
+  font-size: 16px; /* Base font size */
+  font-size: 2.5em; /* 2.5 * 16 = 40px */
+  font-size: 1.875em; /* 1.875 * 16 = 30px */
+  font-size: 1em; /* 1 * 16 = 16px */
+}
+.font_size_rem {
+  font-size: 16px; /* Set the root font size */
+  font-size: 2.5rem; /* 2.5 * 16 = 40px */
+  font-size: 1.875rem; /* 1.875 * 16 = 30px */
+  font-size: 1rem; /* 1 * 16 = 16px */
+}
+.font_size_vw {
+  font-size: 10vw;
+}
+.font_google {
+  font-family: "Sofia", sans-serif;
+}
+.font_shorthand {
+  font: 20px Arial, sans-serif;
+  font: italic bold 16px Arial, sans-serif;
+  font: italic small-caps bold 15px/30px Georgia, serif;
+}

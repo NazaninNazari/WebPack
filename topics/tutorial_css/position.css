@@ -1,0 +1,45 @@
+.position {
+  /* syntax --> position: static|absolute|fixed|relative|sticky|initial|inherit; */
+  position: absolute;
+  position: fixed;
+  position: relative;
+  position: static;
+  position: sticky;
+}
+.position_sticky {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4caf50;
+}
+.position_absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #cae8ca;
+}
+.position_fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 5px;
+  left: 5px;
+  width: 300px;
+  border: 3px solid #4caf50;
+}
+.position_relative {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #4caf50;
+}

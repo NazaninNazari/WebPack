@@ -1,0 +1,19 @@
+.overflow {
+  /* syntax --> overflow: visible|hidden|clip|scroll|auto|initial|inherit; */
+  overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+  overflow: auto;
+}
+.overflow_anchor {
+  /* syntax --> overflow-anchor: auto|none|initial|inherit; */
+  overflow-anchor: none;
+}
+.overflow_xy {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+.overflow_wrap {
+  /* syntax --> overflow-wrap: normal|anywhere|break-word|initial|inherit; */
+  overflow-wrap: break-word;
+}
