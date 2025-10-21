@@ -1,0 +1,16 @@
+/* space */
+div p {
+  background-color: yellow;
+}
+/* Child Combinator (>) */
+div > p {
+  background-color: yellow;
+}
+/* Next Sibling Combinator (+) */
+div + p {
+  background-color: yellow;
+}
+/* Subsequent-sibling Combinator (~) */
+div ~ p {
+  background-color: yellow;
+}

@@ -1,0 +1,19 @@
+.border_image {
+  border-image: url(../../assets/images/http_https.jpg) 30 round;
+  border-image: url(../../assets/images/http_https.jpg) 30 stretch;
+}
+.image_source {
+  border-image-source: url(../../assets/images/url.jpg);
+}
+.image_slice {
+  border-image-slice: 20%;
+}
+.image_width {
+  border-image-width: 10px;
+}
+.image_outset {
+  border-image-outset: 10px;
+}
+.image_repeat {
+  border-image-repeat: repeat;
+}

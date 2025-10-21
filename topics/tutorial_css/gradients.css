@@ -1,0 +1,27 @@
+.linear {
+  background-image: linear-gradient(to bottom, rgb(84, 164, 198), rgb(233, 147, 234));
+  background-image: linear-gradient(to top, rgb(84, 164, 198), rgb(233, 147, 234));
+  background-image: linear-gradient(to right, rgb(84, 164, 198) , rgb(233, 147, 234));
+  background-image: linear-gradient(to bottom right, rgb(84, 164, 198), rgb(233, 147, 234));
+  background-image: linear-gradient(180deg, rgb(84, 164, 198), rgb(233, 147, 234));
+  background-image: linear-gradient(rgb(84, 164, 198), rgb(233, 147, 234), green);
+  background-image: linear-gradient(to right, rgb(84, 164, 198),orange,rgb(233, 147, 234),green,rgb(127, 127, 237),indigo,violet);
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 217));
+  background-image: repeating-linear-gradient(rgb(84, 164, 198), rgb(233, 147, 234) 10%, green 20%);
+}
+.radial {
+  background-image: radial-gradient(indigo, tomato, green);
+  background-image: radial-gradient(indigo 5%, tomato 15%, green 60%);
+  background-image: radial-gradient(circle, indigo, tomato, green);
+  background-image: radial-gradient(closest-side at 70% 60%, indigo, tomato, black);
+  background-image: radial-gradient(farthest-side at 70% 60%, indigo, tomato, black);
+  background-image: repeating-radial-gradient(indigo, tomato 10%, green 15%);
+}
+.conic {
+  background-image: conic-gradient(indigo, rgb(125, 204, 244), green);
+  background-image: conic-gradient(indigo, rgb(125, 204, 244), green, blue, black);
+  background-image: conic-gradient(indigo 45deg, rgb(125, 204, 244) 90deg, green 210deg);
+  background-image: conic-gradient(from 90deg, indigo, rgb(125, 204, 244), green);
+  background-image: conic-gradient(at 60% 45%, indigo, rgb(125, 204, 244), green);
+  background-image: repeating-conic-gradient(indigo 10%, rgb(125, 204, 244) 20%);
+}

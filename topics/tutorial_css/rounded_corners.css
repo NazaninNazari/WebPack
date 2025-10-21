@@ -1,0 +1,83 @@
+.rounded_corner {
+  border-radius: 5px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 40px 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px 60px;
+}
+.border_background {
+  border-radius: 25px;
+  background-color: #04aa6d;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.border_border {
+  border-radius: 25px;
+  border: 2px solid #04aa6d;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.border_image {
+  border-radius: 25px;
+  background-image: url(../../assets/images/colors.jpg);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+.four_value {
+  border-radius: 15px 50px 30px 5px;
+  background: #04aa6d;
+  width: 200px;
+  height: 150px;
+}
+
+.three_value {
+  border-radius: 15px 50px 30px;
+  background: #04aa6d;
+  width: 200px;
+  height: 150px;
+}
+
+.two_value {
+  border-radius: 15px 50px;
+  background: #04aa6d;
+  width: 200px;
+  height: 150px;
+}
+
+.one_value {
+  border-radius: 15px;
+  background: #04aa6d;
+  width: 200px;
+  height: 150px;
+}
+.elliptical_shape {
+  border-radius: 70px / 30px;
+  background: #04aa6d;
+  width: 200px;
+  height: 150px;
+}
+.elliptical_shape {
+  border-radius: 15px / 50px;
+  background: #04aa6d;
+  width: 200px;
+  height: 150px;
+}
+.elliptical_shape {
+  border-radius: 50%;
+  background: #04aa6d;
+  width: 200px;
+  height: 150px;
+}
+.elliptical_shape {
+  border-radius: 50%;
+  background: #04aa6d;
+  width: 200px;
+  height: 200px;
+}

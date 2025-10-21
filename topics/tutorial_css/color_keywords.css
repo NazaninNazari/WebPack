@@ -1,0 +1,11 @@
+.transparent {
+  background-color: transparent;
+}
+.current_color {
+  border: 10px solid currentcolor;
+  box-shadow: 0px 0px 15px currentcolor;
+  background-color: currentcolor;
+}
+.inherit {
+  border: inherit;
+}

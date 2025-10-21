@@ -1,0 +1,66 @@
+/* Absolute Units */
+/* px */
+.cover {
+  font-size: 20px;
+}
+/* cm */
+.cover {
+  font-size: 1.5cm;
+}
+/* mm */
+.cover {
+  font-size: 10mm;
+}
+/* in */
+.cover {
+  font-size: 1in;
+}
+/* pt */
+.cover {
+  font-size: 40pt;
+}
+/* pc */
+.cover {
+  font-size: 3pc;
+}
+/* Relative Units */
+/* em */
+.cover {
+  line-height: 2em;
+}
+/* ex */
+.cover {
+  font-size: 2ex;
+}
+/* ch */
+.cover {
+  font-size: 4ch;
+}
+/* fr */
+.cover {
+  grid-template-columns: 1fr 2fr 200px;
+}
+/* rem */
+.cover {
+  font-size: 2rem;
+}
+/* vw */
+.cover {
+  font-size: 10vw;
+}
+/* vh */
+.cover {
+  font-size: 20vh;
+}
+/* vmin */
+.cover {
+  font-size: 24vmin;
+}
+/* vmax */
+.cover {
+  font-size: 14vmax;
+}
+/* % */
+.cover {
+  font-size: 10%;
+}

@@ -1,0 +1,26 @@
+.container::first-line {
+  color: rgb(85, 156, 187);
+  font-variant: small-caps;
+  font-size: 19px;
+}
+.container::first-letter {
+  color: rgb(85, 156, 187);
+  font-size: xx-large;
+}
+.cover::before {
+  content: url(smiley.gif);
+}
+.cover::after {
+  content: url(smiley.gif);
+}
+::marker {
+  color: rgb(85, 156, 187);
+  font-size: 23px;
+}
+::selection {
+  color: rgb(85, 156, 187);
+  background: rgb(233, 233, 153);
+}
+dialog::backdrop {
+  background-color: lightgreen;
+}
