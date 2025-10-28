@@ -1,0 +1,77 @@
+/* One */
+@keyframes myAnimation {
+  from {
+    background-color: rgb(231, 134, 244);
+  }
+  to {
+    background-color: rgb(240, 139, 228);
+  }
+}
+.my_box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(129, 235, 180);
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+/* Two */
+@keyframes myAnimation {
+  0% {
+    background-color: rgb(89, 177, 187);
+  }
+  25% {
+    background-color: rgb(134, 244, 159);
+  }
+  50% {
+    background-color: rgb(119, 119, 218);
+  }
+  100% {
+    background-color: rgb(123, 210, 123);
+  }
+}
+
+.my_box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(225, 59, 156);
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+/* Three */
+.my_box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@keyframes myAnimation {
+  0% {
+    background-color: rgb(246, 129, 217);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: rgb(246, 246, 153);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgb(130, 130, 215);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: rgb(148, 226, 148);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgb(169, 82, 115);
+    left: 0px;
+    top: 0px;
+  }
+}

@@ -1,0 +1,26 @@
+.over_flow {
+  overflow: hidden;
+  overflow: visible;
+  overflow: scroll;
+  overflow: auto;
+}
+.text_overflow {
+  text-overflow: clip;
+  text-overflow: ellipsis;
+}
+.word_wrap {
+  word-wrap: break-word;
+  word-wrap: normal;
+}
+.word_break {
+  word-break: normal;
+  word-break: break-all;
+  word-break: keep-all;
+}
+.writing_mode {
+  writing-mode: horizontal-tb;
+  writing-mode: sideways-lr;
+  writing-mode: sideways-rl;
+  writing-mode: vertical-lr;
+  writing-mode: vertical-rl;
+}

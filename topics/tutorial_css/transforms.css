@@ -1,0 +1,56 @@
+/* 2D Transforms */
+.image_box {
+  transform: translate(50px, 100px);
+  transform: rotate(20deg);
+  transform: rotate(-20deg);
+  transform: scale(2, 3);
+  transform: scale(0.5, 0.5);
+  transform: scaleX(2);
+  transform: scaleX(0.5);
+  transform: scaleY(3);
+  transform: scaleY(0.5);
+  transform: skewX(20deg);
+  transform: skewY(20deg);
+  transform: skew(20deg, 10deg);
+  transform: skew(20deg);
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+/* 3D Transforms */
+.image_box {
+  transform: rotateX(150deg);
+  transform: rotateY(150deg);
+  transform: rotateZ(90deg);
+}
+/* transform-origin Property */
+.image_box {
+  transform-origin: 20% 40%;
+  transform-origin: center center;
+  transform-origin: center top;
+  transform-origin: center bottom;
+  transform-origin: 10% bottom;
+  transform-origin: 20% bottom;
+}
+/* transform-style Property */
+.image_box {
+  transform-style: preserve-3d;
+  transform-style: flat;
+}
+/* perspective Property */
+.image_box {
+  perspective: 100px;
+  perspective: 700px;
+  perspective: 400px;
+  perspective: none;
+}
+/* perspective-origin Property */
+.image_box {
+  perspective-origin: left;
+  perspective-origin: center top;
+  perspective-origin: right bottom;
+  perspective-origin: 10% bottom;
+}
+/* backface-visibility Property */
+.image_box {
+  backface-visibility: hidden;
+  backface-visibility: visible;
+}

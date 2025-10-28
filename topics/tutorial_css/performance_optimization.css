@@ -1,0 +1,34 @@
+/* 1. Use Simple Selectors */
+/* Bad */
+body #nav_list ul li a.button:hover {
+  background-color: rgb(134, 134, 223);
+}
+/* Better */
+.button:hover {
+  background-color: rgb(238, 219, 147);
+}
+/* 2. Avoid Universal Selector for Styling */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+/* 3. Avoid Inline Styles */
+/* <span style="color: purple; font-size: 18px;">Hello</span> */
+/* 4. Avoid @import */
+/* <link rel="stylesheets" href="style.css"> */
+/* 5. Use Shorthand Properties */
+.container {
+  /* Long version */
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+  /* Shorthand version */
+  margin: 10px 20px;
+}
+/* 6. Cut Down Unnecessary Animations */
+/* 7. Use Properties that Not Cause Repaint of Animations */
+/* 8. Combine and Minify CSS */
+/* 9. Cache Your CSS */

@@ -1,0 +1,57 @@
+/* 1. Provide High Color Contrast */
+/* Bad */
+body {
+  background-color: #eeeeee;
+  color: #cccccc;
+}
+/* Good */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* 2. Provide Good Font, Font Size and Line Height */
+/* Bad */
+body {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  font-variant: small-caps;
+  line-height: 90%;
+}
+/* Good */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+/* 3. Have Visible Focus Indicators */
+a:focus,
+button:focus,
+input:focus {
+  outline: 2px solid rgb(123, 179, 240);
+}
+/* 4. Avoid Hiding Focus */
+/* Bad */
+button:focus {
+  outline: none;
+}
+/* Good */
+button:focus {
+  outline: 2px solid rgb(241, 134, 206);
+}
+/* 5. Use CSS + Semantic HTML */
+nav {
+  background-color: #333333;
+  color: white;
+}
+aside {
+  background-color: #333333;
+  color: white;
+}
+/* 6. Respect User Preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

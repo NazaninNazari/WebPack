@@ -1,0 +1,26 @@
+/* calc(expression) */
+#div {
+  margin: auto;
+  width: calc(100% - 100px);
+  height: calc(30vh + 50px);
+  border: 1px solid black;
+  padding: 10px;
+}
+/* max(value1, value2, ...) */
+#div1 {
+  height: 100px;
+  width: max(50%, 300px);
+  border: 1px solid black;
+  padding: 10px;
+}
+/* min(value1, value2, ...) */
+#div1 {
+  height: 100px;
+  width: min(50%, 300px);
+  border: 1px solid black;
+  padding: 10px;
+}
+/* clamp(min, preferred, max) */
+.text {
+  font-size: clamp(2rem, 2.5vw, 3.5rem);
+}
