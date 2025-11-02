@@ -1,0 +1,9 @@
+.image {
+  clip-path: circle(50%);
+  clip-path: circle(50% at right);
+  shape-outside: circle(45%);
+  clip-path: ellipse(50% 35%);
+  clip-path: ellipse(50% 35% at right);
+  shape-outside: ellipse(45% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}

@@ -7,7 +7,10 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="selectors.css" />
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
     <!-- Internal CSS -->
     <style>
       body {
@@ -21,5 +24,52 @@
 
     <h1>This is a heading</h1>
     <p>This is a paragraph.</p>
+
+    <!-- Masking -->
+    <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+      <mask id="svg_masking">
+        <circle r="150" cx="200" cy="200" fill="#ffffff" />
+      </mask>
+      <image
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:href="../../assets/images/colors.jpg"
+        mask="url(#svg_masking)"
+      ></image>
+    </svg>
+    <!-- Ellipse -->
+    <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+      <mask id="svg_masking">
+        <ellipse cx="220" cy="150" rx="200" ry="100" fill="#ffffff" />
+      </mask>
+      <image
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:href="../../assets/images/colors.jpg"
+        mask="url(#svg_masking)"
+      ></image>
+    </svg>
+    <!-- Triangle -->
+    <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+      <mask id="svg_masking">
+        <polygon fill="#ffffff" points="200 0, 400 400, 0 400"></polygon>
+      </mask>
+      <image
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:href="../../assets/images/colors.jpg"
+        mask="url(#svg_masking)"
+      ></image>
+    </svg>
+    <!-- Multiple Circles -->
+    <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+      <mask id="svg_masking">
+        <circle fill="#ffffff" cx="75" cy="75" r="75"></circle>
+        <circle fill="#ffffff" cx="80" cy="260" r="75"></circle>
+        <circle fill="#ffffff" cx="270" cy="160" r="75"></circle>
+      </mask>
+      <image
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:href="../../assets/images/colors.jpg"
+        mask="url(#svg_masking)"
+      ></image>
+    </svg>
   </body>
 </html>

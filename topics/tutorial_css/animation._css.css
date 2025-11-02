@@ -1,0 +1,73 @@
+@keyframes myAnimation {
+  from {
+    background-color: rgb(234, 92, 144);
+  }
+  to {
+    background-color: rgb(221, 116, 203);
+  }
+}
+@keyframes myAnimation {
+  0% {
+    background-color: rgb(234, 92, 144);
+  }
+  25% {
+    background-color: rgb(221, 116, 203);
+  }
+  50% {
+    background-color: rgb(124, 124, 198);
+  }
+  100% {
+    background-color: rgb(115, 189, 115);
+  }
+}
+@keyframes myAnimation {
+  0% {
+    background-color: rgb(234, 92, 144);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: rgb(221, 116, 203);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgb(124, 124, 198);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: rgb(115, 189, 115);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgb(234, 92, 144);
+    left: 0px;
+    top: 0px;
+  }
+}
+.box {
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-delay: -2s;
+  animation-iteration-count: 3;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-direction: alternate;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  animation-fill-mode: backwards;
+  animation-fill-mode: both;
+}
+.box {
+  animation-timing-function: linear;
+  animation-timing-function: ease;
+  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
+  animation-timing-function: ease-in-out;
+}
+.box {
+  animation: myAnimation 5s linear 2s infinite alternate;
+}

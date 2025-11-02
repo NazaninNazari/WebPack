@@ -1,0 +1,16 @@
+.image {
+  -webkit-mask-image: url(../../assets/images/colors.jpg);
+  mask-image: url(../../assets/images/colors.jpg);
+}
+.image {
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+  -webkit-mask-image: radial-gradient(
+    circle,
+    black 50%,
+    rgba(0, 0, 0, 0.5) 50%
+  );
+  mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+  -webkit-mask-image: conic-gradient(black 0deg, transparent 360deg);
+  mask-image: conic-gradient(black 0deg, transparent 360deg);
+}

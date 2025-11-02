@@ -1,0 +1,24 @@
+.box {
+  transition: width 2s;
+  transition: width 2s linear 1s;
+  transition: width 2s, height 4s, background-color 3s;
+  transition: background-color 1s ease-out, transform 1s ease-out;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.box {
+  transition-timing-function: linear;
+  transition-timing-function: ease;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+  transition-timing-function: ease-in-out;
+}
+.box {
+  transition-delay: 1s;
+  transition-delay: 5s;
+}
+.box {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
