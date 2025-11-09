@@ -1,0 +1,13 @@
+/* Resize */
+.resize {
+  resize: horizontal;
+  resize: both;
+  resize: none;
+  resize: vertical;
+}
+/* Outline Offset */
+.outline {
+  outline: 4px solid rgb(223, 121, 163);
+  outline: 5px dashed rgb(104, 104, 162);
+  outline-offset: 15px;
+}

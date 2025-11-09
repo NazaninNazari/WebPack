@@ -1,0 +1,28 @@
+.container {
+  accent-color: rgb(0, 255, 200);
+  all: initial;
+  aspect-ratio: 3 / 2;
+  backface-visibility: hidden;
+  writing-mode: horizontal-tb;
+  word-break: break-all;
+  unicode-bidi: bidi-override;
+  row-gap: 50px;
+  quotes: "'" "'";
+  pointer-events: auto;
+  paint-order: stroke fill;
+  mix-blend-mode: darken;
+}
+/* use this CSS if the browser supports display: grid */
+@supports (display: grid) {
+  .container {
+    display: grid;
+    grid: auto;
+    grid-gap: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+  }
+}
+@font-palette-values --greenAndYellow {
+  font-family: "Bungee Spice";
+  override-colors: 0 yellow, 1 green;
+}

@@ -1,0 +1,25 @@
+:root {
+  --primary-bg-color: #1e90ff;
+  --primary-color: #ffffff;
+}
+
+.card {
+  background-color: var(--primary-bg-color);
+}
+.card {
+  border: 1px solid var(--primary-bg-color);
+  padding: 10px;
+}
+.container {
+  --fontsize: 20px;
+  color: var(--primary-bg-color);
+  background-color: var(--primary-color);
+  padding: 15px;
+  font-size: var(--fontsize);
+}
+
+@media screen and (min-width: 450px) {
+  .container {
+    --fontsize: 40px;
+  }
+}
